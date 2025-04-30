@@ -18,11 +18,11 @@ function HomeScreen() {
 // Simulação de dados de notícias
 
 const newsData = [
-  { id: '1', title: 'Últimas Notícias sobre Tecnologia', description: 'Novidades e avanços no mundo da tecnologia.' },
-  { id: '2', title: 'Mercado Financeiro em Alta', description: 'Análise do desempenho do mercado financeiro.' },
-  { id: '3', title: 'Dicas de Viagem para o Verão', description: 'Melhores destinos e dicas para suas férias.' },
-  { id: '4', title: 'Nova Atualização de Software Disponível', description: 'Detalhes sobre a mais recente versão do software.' },
-  { id: '5', title: 'Receitas Deliciosas para o Fim de Semana', description: 'Ideias de pratos saborosos para você preparar.' },
+  { id: '1', title: 'A I.A atualizou de novo veja a sua nova versão', description: 'I.A se prova surprendente de novo.' },
+  { id: '2', title: 'Jogos da seleção', description: 'Veja os próximos jogos da Seleção.' },
+  { id: '3', title: 'Dicas de Viagem para o Verão', description: 'Como se preparar para uma viagem para os EUA.' },
+  { id: '4', title: 'Novidades da área de jogos', description: 'Novos anuncios de grandes empresas.' },
+  { id: '5', title: 'Novas areás da tecnologia', description: '  Futuros empregos que possivelmente vão dominar.' },
 ];
 
 const NewsItem = ({ item }) => (
